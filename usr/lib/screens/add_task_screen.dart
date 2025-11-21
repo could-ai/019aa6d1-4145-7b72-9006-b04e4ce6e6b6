@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+
+class AddTaskScreen extends StatelessWidget {
+  const AddTaskScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Add Task'),
+        backgroundColor: Colors.black,
+        elevation: 0,
+      ),
+      body: const Center(
+        child: Text(
+          'Add Task Page',
+          style: TextStyle(fontSize: 24),
+        ),
+      ),
+    );
+  }
+}
